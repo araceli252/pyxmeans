@@ -1,5 +1,5 @@
 import numpy as np
-from mini_batch import MiniBatch
+from sklearn.cluster import KMeans as MiniBatch
 from sklearn.metrics import euclidean_distances
 from collections import namedtuple
 
